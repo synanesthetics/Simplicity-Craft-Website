@@ -1,0 +1,41 @@
+<!-- Proudly coded by Billy (https://bybilly.uk) -->
+<!-- Version: 1.9.2 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Info meta tags, important for social media + SEO -->
+	<title>World Map - Simplicity Craft</title>
+	<meta name="description" content="Simplicity Craft, an SMP server with a small, close community.">
+	<meta property="og:title" content="Simplicity Craft - Official Website Portal">
+	<meta property="og:site_name" content="Simplicity Craft">
+	<meta property="og:description" content="Simplicity Craft, an SMP server with a small, close community.">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/map.css">
+    <style>
+        body {
+            background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)), url("img/minecraft.png") no-repeat center center fixed;
+            background-size: cover;
+            font-family: "Open Sans", Helvetica;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id='dynback'>
+        <button class="home-button" role="button" onclick="location.href='index.html'" type="button">← Home</button>
+    </div>
+    <div id='dynmap'>
+        <iframe src="http://192.168.0.152:8123/" width="80%" height="1000">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+    </div>
+</body>
